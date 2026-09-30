@@ -10,4 +10,4 @@ config:
     value:
       pulumi:template: aws-python
 packages:
-  container-services: https://github.com/pulumi-pequod/component-container-services@v1.1.5
+  container-services-py: github.com/pulumi-pequod/component-container-services-py@v1.0.0
