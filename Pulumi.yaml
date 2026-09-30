@@ -1,0 +1,13 @@
+name: mrg-ecs-cloudfront-project
+description: ECR + ECS container fronted by CloudFront
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
+packages:
+  container-services: private/pequod/container-services@1.1.5
